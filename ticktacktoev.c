@@ -68,9 +68,13 @@ void playGame() {
     int row, col;
     while (1) {
         printBoard();
-        printf("Player %c, enter row and column (0-2): ", currentPlayer);
+        printf("Player %c, enter row and column (1-3): ", currentPlayer);
         scanf("%d %d", &row, &col);
         
+        // Convert user input (1-3) to array indices (0-2)
+        row -= 1;
+        col -= 1;
+
         // Validate the input
         if (row < 0 || row > 2 || col < 0 || col > 2 || board[row][col] != ' ') {
             printf("Invalid move, try again.\n");
