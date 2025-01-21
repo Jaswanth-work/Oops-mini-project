@@ -1,3 +1,3 @@
 # Oops-mini-project
-# welcome to the workspace 
-# leave your distractions and concentrate on the project
+# project on tic tac toe
+# made by Jaswanth Manikanta , Vamsi krishna,PK adwaith shan
